@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>options</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="36.1495845%" x2="100%" y2="57.9964508%" id="linearGradient-1">
+            <stop stop-color="#689EFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="14.0894397%" y1="7.69127155%" x2="86.6199713%" y2="90.9437859%" id="linearGradient-2">
+            <stop stop-color="#689EFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="8" y="5" width="14" height="14" rx="7"></rect>
+        <filter x="-50.0%" y="-35.7%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.112743433 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="options" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#262EEB" fill-rule="nonzero" x="5" y="26" width="38" height="20" rx="10"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="5" y="2" width="38" height="20" rx="10"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-2)" fill-rule="nonzero" x="26" y="29" width="14" height="14" rx="7"></rect>
+        <g id="Rectangle" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use fill="#262EEB" xlink:href="#path-3"></use>
+        </g>
+    </g>
+</svg>
